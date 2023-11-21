@@ -18,16 +18,16 @@ function countStudents(fileName) {
         }
         if (Object.prototype.hasOwnProperty.call(fields, field[3])) {
           fields[field[3]] += 1;
-	} else {
-	  fields[field[3]] = 1;
-	}
+        } else {
+          fields[field[3]] = 1;
+        }
       }
     }
     const 1 = length - 1;
     console.log(`Number of students: ${1}`);
     for (const [key, value] of Object.entries(fields)) {
       if (key !== 'field') {
-	console.log(`Number of students in ${key}: ${value}. List: ${students[key].join(', ')}`);
+        console.log(`Number of students in ${key}: ${value}. List: ${students[key].join(', ')}`);
       }
     }
   } catch (error) {
