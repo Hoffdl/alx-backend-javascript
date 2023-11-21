@@ -16,8 +16,8 @@ function countStudents(fileName) {
         } else {
           students[field[3]] = [field[0]];
         }
-        if (Object.prototype.hasOwnProperty.call(fields, fields[3])) {
-          firlds[field[3]] += 1;
+        if (Object.prototype.hasOwnProperty.call(fields, field[3])) {
+          fields[field[3]] += 1;
 	} else {
 	  fields[field[3]] = 1;
 	}
