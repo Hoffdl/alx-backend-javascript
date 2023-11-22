@@ -39,4 +39,4 @@ function countStudents(fileName) {
   });
 }
 
-module.exports = countStudents
+module.exports = countStudents;
