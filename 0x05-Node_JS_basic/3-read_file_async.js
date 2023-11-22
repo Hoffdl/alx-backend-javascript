@@ -33,10 +33,10 @@ function countStudents(fileName) {
             console.log(`Number of students in ${key}: ${value}. List: ${students[key].join(', ')}`);
           }
         }
-	resolve(data);
+        resolve(data);
       }
     });
   });
 }
 
-module.exports = countStudents;
+module.exports = countStudents
